@@ -9,14 +9,12 @@ int main()
 {
 	int number, x;
 	bool prime = true;
-	int primeN;
-
-	cout << "Enter a number between 1 and 1000." << endl;
+	
 	cin >> number;
 
 	if (number > 1000) {
 		prime = false;
-		cout << "Out of bounds.";
+		cout << "out of bound";
 		return 1;
 	}
 
