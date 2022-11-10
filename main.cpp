@@ -15,7 +15,7 @@ int main()
 	if (number > 1000) {
 		prime = false;
 		cout << "out of bound";
-		return 1;
+		return 0;
 	}
 
 	for (x = 2; x <= number / 2; x++)
