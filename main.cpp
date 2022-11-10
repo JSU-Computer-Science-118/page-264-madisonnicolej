@@ -12,7 +12,7 @@ int main()
 	
 	cin >> number;
 
-	if (number > 1000) {
+	if (number > 1000 || number <=1) {
 		prime = false;
 		cout << "out of bound";
 		return 0;
